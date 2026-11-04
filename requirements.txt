@@ -1,0 +1,27 @@
+# Python 3.11.9 requis (PyTorch n'est pas compatible avec Python 3.14)
+# Installation : py -3.11 -m pip install -r requirements.txt
+
+# Coeur ML / DL
+numpy>=1.23.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+torch>=2.0.0
+joblib>=1.3.0
+
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+nbformat>=5.0.0
+
+# Application web (Partie 2)
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-multipart>=0.0.10
+jinja2>=3.1.0
+
+# Explicabilité (SHAP)
+shap>=0.42.0

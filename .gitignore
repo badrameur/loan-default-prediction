@@ -1,0 +1,9 @@
+data/
+outputs/
+**/models/
+*.pkl
+*.pt
+*.npy
+*.csv
+.env
+__pycache__/
